@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&family=Lexend+Deca:wght@100;200;300;400;500;600;700&family=Poppins:wght@300;400;600&display=swap');
+
+.App {
+  text-align: center;
+  
+}
+
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.inputField{
+  width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #ffffff7f;
+    
+}
+::placeholder {
+  color: #1500ff; /* Customize the color */
+  font-size: 20px;
+  font-family: bold;
+}
+
+.cardBorder{
+ 
+  border-radius: 5px;
+  margin-top: 30%;
+background-color: 'rgba(52, 52, 52, 0.8)';
+  border-style: solid;
+    border-color: rgb(28, 28, 28);
+  padding: 20px;
+width: 100%;
+align-items: center;}
+.signup{
+  background-image: url("https://live.staticflickr.com/5018/5531528873_56e6cb1b64_b.jpg"); 
+
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+.cardBorder1{border-radius: 5px;
+ 
+background-color: 'rgba(52, 52, 52, 0.8)';
+  border-style: solid;
+    border-color: rgb(28, 28, 28);
+  padding: 20px;
+width: 100%;
+align-items: center;}
+.container{
+  
+ 
+  height: 100vh;
+  width: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  
+}
+.navbar{
+ height:10%;
+}
+.login{
+  background-image: url("https://live.staticflickr.com/5018/5531528873_56e6cb1b64_b.jpg"); 
+
+  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.tejas{
+  background-image: url("https://i0.wp.com/asiatimes.com/wp-content/uploads/2022/03/India-MCMA-Fighter.jpg?fit=1402%2C782&ssl=1"); 
+
+  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.tejas1{
+  background-image: linear-gradient(to right, #51b8f8, #95e1ff);
+
+   height:120vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.loginbutton {
+  color: rgb(104, 85, 224);
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(104, 85, 224, 1);
+}
+.basicbutton{
+    cursor: pointer;
+      border: 0;
+      border-radius: 4px;
+      font-weight: 600;
+      margin: 0 10px;
+      width: 200px;
+      padding: 10px 0;
+      box-shadow: 0 0 20px rgba(104, 85, 224, 0.2);
+      transition: 0.4s;
+}
+.basicbutton:hover {
+  color: white;
+  width:205px ;
+  box-shadow: 0 0 20px rgba(104, 85, 224, 0.6);
+  background-color: rgba(104, 85, 224, 1);
+}
+.nav{
+  
+  display: flex; /* Example: Use flexbox for layout */
+
+  background-color:grey;
+  position: fixed; /* Set the navbar to fixed position */
+  /* Position the navbar at the top of the page */
+  width: 100%;
+}
+.login-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+@media screen and (max-width: 600px) {
+  /* Adjust styles for smaller screens */
+  .login-container {
+    padding: 10px;
+  }
+}
+.topnav {
+ display: flex;
+  
+  background-color:grey;
+  position: fixed; /* Set the navbar to fixed position */
+  /* Position the navbar at the top of the page */
+  width: 100%;
+ 
+}
+.cement-navbar{
+  background-color:#8a8a8a;
+}
+
+
+.navbar-nav .nav-link:hover{
+  background-color: #dadcde;;
+}
+
+/* .topnav .a{
+  float: left;
+  display: block;
+  color: #61dafb;
+  text-align: center;
+  padding: 14px 16px;
+
+}  */
+.topnav a:hover{
+  background-color: #ffffffb4;
+ 
+
+}
+#active{
+  background-color: #ffffff7f;
+  color: white;
+}
+.my-navbar {
+  display: flex;
+  justify-content: space-between;
+  
+  align-items: center;
+  color: white;
+ 
+  margin-left: 60px;
+}
+
+
+
+/* .container1{
+  margin: 1rem;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  content: ''; /* Required for pseudo-elements */
+  display: block; /* Make it a block element */
+  position: fixed; /* Fix the position relative to the viewport */
+  top: 0; /* Align to the top of the viewport */
+  left: 0; /* Align to the left of the viewport */
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  /* background-image: url('./logo/Lca.jpg'); Path to your background image */
+  background-size: cover; /* Cover the entire page */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  opacity: 0.5; /* Set the desired opacity level (0 to 1) */
+  z-index: -1; 
+/* } */
+

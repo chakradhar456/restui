@@ -1,0 +1,167 @@
+.App {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: rgba(100, 90, 90, 0.129);
+   
+  }
+  /* table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th,
+  td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  } */
+  table {
+    margin: 20px;
+    border-radius: 1rem;
+    border: 1rem hidden  solid #d3d2d8;
+    border-collapse: collapse;
+    box-shadow: 0 0 0 1px black;
+    overflow: hidden;
+    width: 98%;
+  }
+  
+  li, p, a, td{
+    font-size: 1rem;
+    line-height: 1;
+  }
+  
+  thead {
+    font-size: 1.3rem;
+    /* background-color: #443C68; */
+    color: #181717;
+  }
+  
+  th,
+  td {
+    border: 1px solid #d3d2d8;
+    /* min-width: 20rem; */
+    padding: 0.5rem;
+    /* line-height: 1.7; */
+  }
+  
+  td {
+    font-size: 1.4rem;
+  }
+  .headstyling {
+   
+    color: #333; /* Dark grey color for the text */
+    text-align: center; /* Center align the text */
+    background-color: #f8f8f8; /* Light grey background */
+    padding: 0.5rem; /* Padding above and below the text */
+    margin: 0; /* Remove default margin */
+    border-bottom: 3px solid #e7e7e7; /* Add a bottom border */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Use a modern font stack */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  .row1 {
+    display: flex;
+    justify-content: center;
+    margin-top:-1%;
+  }
+  .row4{
+    margin-top: -2%;
+  }
+  .row3{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+    
+   
+    
+   
+  }
+  hr.strobe {
+    animation: strobe 1s infinite alternate;
+    opacity: 0.3;
+}
+.vertical-line {
+  border-left: 1px solid #000;
+  height: 300px; /* Adjust height as needed */
+  margin-bottom: none;
+}
+  
+  .right-div {
+   margin-right: 13rem; /* Optional spacing */
+    margin-top: 3rem;
+  }
+  .row2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+   
+  }
+  label1 {
+    font-family: Arial, sans-serif; /* Adjust font family as needed */
+    font-size: 16px; /* Adjust font size as needed */
+    color: #000; /* Black font color */
+    margin-right: 1rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+  }  
+  .input-field {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 0rem;
+  }
+  
+  .input-field:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  .fetch-button {
+    background-color: #02b2af; /* Green background */
+    border: none; /* No borders */
+    color: white; /* White text */
+    padding: 10px 14px; /* Padding for a larger button */
+    text-align: center; /* Centered text */
+    text-decoration: none; /* No underline on the text */
+    display: inline-block; /* Allows setting width and height */
+    font-size: 16px; /* Larger font size */
+    margin: 4px 2px; /* Margins for spacing around the button */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 4px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth background color transition on hover */
+  }
+  
+  .fetch-button:hover {
+    background-color: #137472; /* Darker shade of green on hover */
+  }
+  #custom-checkbox input[type="checkbox"] {
+    /* Adjust the dimensions as needed */
+    width: 15px;
+    height: 15px;
+  }
+  .input1{
+    
+    border: 1px solid #ccc;
+      border-radius: 15px;
+      margin-top: 0rem;
+      width: 15rem;
+      height:auto;
+      background-color: aqua;
+    
+      left:0;
+}
+.input2 {
+
+
+
+height: auto;
+background-color: aqua;
+}
+.para {
+  margin-top: 5px;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+}
