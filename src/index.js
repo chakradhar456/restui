@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import TickPlacementBar from './Components/TickPlacementBars'
 //test
+//test2
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const dataset=[
   {session: "1st Punch", value:400},
